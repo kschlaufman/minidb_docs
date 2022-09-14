@@ -1,46 +1,45 @@
 Summary
 -------
 
-
-
+Schlaufman & Casey (2014) selection
 
 Columns
 -------
 
-designation - 2MASS Designation
-ra_1 - WISE position
-dec_1 - WISE position
-glon - WISE position?
-glat - WISE position?
-w1mpro - WISE magnitude
-w2mpro - WISE magnitude
-w3mpro - WISE magnitude
-w4mpro - WISE magnitude
-pmra - Gaia DR2 proper motion?
-pmdec - Gaia DR2 proper motion?
-j_m_2mass - 2MASS magnitude
-h_m_2mass - 2MASS magnitude
-k_m_2mass - 2MASS magnitude
-ra_2 - 2MASS coordinate?
-raerr - 2MASS coordinate?
-dec_2 - 2MASS coordinate?
-decerr - 2MASS coordinate?
-nobs - 
-mobs - 
-vjmag - APASS magnitude
-bjmag - APASS magnitude
-gmag - APASS magnitude
-rmag - APASS magnitude
-imag - APASS magnitude
-evjmag - APASS magnitude
-ebjmag - APASS magnitude
-egmag - APASS magnitude
-ermag - APASS magnitude
-eimag - APASS magnitude
-name - 
-separation - 
-ebv - SFD dustmap
-version - version 2 is high priiority, version 1 is low priority (see Schlaufman + Casey 2014 for definitions)
+designation - AllWISE source designation
+ra_1 - All right ascension (J2000)
+dec_1 - AllWISE declination (J2000)
+glon - AllWISE galactic longitude
+glat - AllWISE galactic latitude
+w1mpro - AllWISE W1 instrumental profile-fit photometry magnitude
+w2mpro - AllWISE W2 instrumental profile-fit photometry magnitude
+w3mpro - AllWISE W3 instrumental profile-fit photometry magnitude
+w4mpro - AllWISE W4 instrumental profile-fit photometry magnitude
+pmra - AllWISE apparent motion in ra
+pmdec - AllWISE apparent motion in dec
+j_m_2mass - J magnitude entry of the associated 2MASS All-Sky PSC source
+h_m_2mass - H magnitude entry of the associated 2MASS All-Sky PSC source
+k_m_2mass - K magnitude entry of the associated 2MASS All-Sky PSC source
+ra_2 - APASS DR9 right ascension (J2000)
+raerr - APASS DR9 right ascension uncertainty
+dec_2 - APASS DR9 declination (J2000)
+decerr - APASS DR9 declination uncertainty
+nobs - APASS DR9 number of observed nights
+mobs - APASS DR9 number of images for this field, usually nobs*5
+vjmag - APASS DR9 Johnson V-band magnitude
+bjmag - APASS DR9 Johnson B-band magnitude
+gmag - APASS DR9 g'-band AB magnitude, Sloan filter
+rmag - APASS DR9 r'-band AB magnitude, Sloan filter
+imag - APASS DR9 i'-band AB magnitude, Sloan filter
+evjmag - APASS DR9 Vmag uncertainty
+ebjmag - APASS DR9 Bmag uncertainty
+egmag - APASS DR9 g'mag uncertainty
+ermag - APASS DR9 r'mag uncertainty
+eimag - APASS DR9 i'mag uncertainty
+name - APASS DR9 field name
+separation - separation in arcseconds between AllWISE/APASS DR9 equitoiral coordinates
+ebv - reddening predicted by SFD dust map
+version - version 2 is high priority, version 1 is low priority (see Schlaufman & Casey 2014 for definitions)
 original_ext_source_id - 
 cntr - 
 
